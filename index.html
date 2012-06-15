@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Getting Jumpy Sample 2</title>
+
+
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="js/Edge_sample_gettingjumpy2_edgePreload.js"></script>
+    <style>
+        .left-nav { float:left; width:320px; }
+        .left-nav header { position:fixed; }
+
+        #nav { left:28px; padding:0; position:absolute; text-align:center; top:210px; }
+        #nav li {
+          float: left;
+          margin: 0;
+          padding: 0;
+          width: auto;
+        }
+        #nav li + li { margin-left:25px; }
+        #nav li a { background-image:url('images/sprites.png'); display: block;
+          color: white;
+          font: bold 12px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+          height: 30px;
+          padding: 37px 3px 3px;
+          text-transform: uppercase;
+          width: 30px; }
+
+        #nav li.article a { background-position:-20px -2051px; }
+        #nav li.picture a { background-position: -22px -1589px; }
+        #nav li.video a { background-position: -22px -811px; }
+        #nav li a:hover { color: #CC3333 !important; cursor:pointer; }
+        ol, ul { list-style: none outside none; }
+
+        .content { height:100%; margin-left:230px; position:absolute; top:10px; }
+
+        .edgeLoad-EDGE-247620929 { display:none; }
+        #stage { height:380px; left:-105px; top:-200px; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+</head><body>
+	<div id="stage" class="symbol_stage EDGE-247620929">
+	</div>
+
+  <div class="left-nav">
+    <ul id="nav">
+      <li class="article">
+        <a>Articles</a>
+      </li>
+      <li class="picture">
+        <a>Pictures</a>
+      </li>
+      <li class="video">
+        <a>Videos</a>
+      </li>
+    </ul>
+  </div>
+
+  <section class='content'>
+    foo
+  </section>
+
+</body>
+</html>
